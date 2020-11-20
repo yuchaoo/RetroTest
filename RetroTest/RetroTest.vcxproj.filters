@@ -1,0 +1,1112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{8458b88f-e909-4445-a1e5-96177bd5673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\boards">
+      <UniqueIdentifier>{48ad8924-96bb-4547-9226-1ceafada80b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\drivers">
+      <UniqueIdentifier>{c4569654-c6af-42cb-8359-226a54259763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\fir">
+      <UniqueIdentifier>{401c104a-d5ec-41fd-9635-fadcbe7a91aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\input">
+      <UniqueIdentifier>{5a828c55-35c6-4feb-9789-015f1f2084c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\ntsc">
+      <UniqueIdentifier>{e8c13c51-2157-4987-b11d-522ef64642d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\palettes">
+      <UniqueIdentifier>{55d90aa7-b617-40fe-ae1c-94da4d6c04ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cart.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cheat.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc32.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fceu.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fceu-endian.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fceu-memory.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fds.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fds_apu.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filter.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\general.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ines.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nsf.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\palette.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ppu.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unif.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vsuni.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\x6502.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\__dummy_mapper.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\__serial.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\3d-block.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\8in1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\09-034a.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\12in1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\15.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\18.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\28.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\31.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\32.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\33.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\34.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\40.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\41.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\42.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\43.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\46.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\50.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\51.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\57.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\60.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\62.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\65.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\67.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\68.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\69.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\71.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\72.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\77.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\79.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\80.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\82.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\88.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\90.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\91.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\96.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\99.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\103.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\104.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\106.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\108.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\112.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\116.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\117.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\120.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\121.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\126.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\151.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\156.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\158B.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\164.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\168.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\170.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\175.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\177.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\178.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\183.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\185.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\186.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\187.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\189.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\190.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\193.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\199.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\206.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\208.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\218.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\222.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\224.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\225.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\228.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\230.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\232.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\234.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\235.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\237.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\244.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\246.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\252.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\253.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\267.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\269.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\293.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\353.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\356.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\357.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\359.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\360.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\369.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\370.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\372.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\380.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\382.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\389.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\390.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\395.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\401.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\411.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\516.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\533.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\534.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\539.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\554.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\603-5052.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\8157.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\8237.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\411120-c.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\830118C.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\830134C.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\a9746.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\AbG1l.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\ac-08.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\addrlatch.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\ax40g.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\ax5705.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bandai.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bb.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bj56.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc13in1jy110.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc42in1r.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc64in1nr.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc70in1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc60311c.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc80013b.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmc830425C4391t.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmcctc09.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmcgamecard.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmck3006.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmck3033.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmck3036.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bmcl6in1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\BMW8544.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bonza.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bs4xxxr.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\bs-5.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\BS110.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\Bs5652.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\cheapocabra.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\cityfighter.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\coolboy.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\copyfami_emu.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\copyfami_hwi.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\dance2000.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\datalatch.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\dream.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\edu2000.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\eh8813a.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\emu2413.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\et-100.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\et-4320.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\f-15.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\famicombox.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\faridunrom.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\ffe.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\fk23c.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\gn26.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\gs-2004.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\gs-2013.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\h2288.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\hp10xx_hp20xx.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\hp898f.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\karaoke.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KG256.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\kof97.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7012.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7013.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7016.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7017.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7030.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7031.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7032.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7037.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\KS7057.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\le05.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\lh32.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\lh51.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\lh53.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\malee.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\mihunche.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\mmc1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\mmc2and4.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\mmc3.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\mmc5.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\n106.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\n625092.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\NC7000M.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\novel.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\onebus.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\pec-586.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\resetnromxin1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\resettxrom.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\rt-01.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\SA-9602B.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\sachen.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\sc-127.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\sheroes.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\sl1632.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\subor.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\super40in1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\supervision.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\t-227-1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\t-262.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\tengen.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\tf-1201.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\transformer.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\txcchip.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\unrom512.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc1.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc2and4.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc3.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc6.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc7.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\vrc7p.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boards\yoko.c">
+      <Filter>源文件\src\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\griffin.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro_dipswitch.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro-common\compat\compat_snprintf.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro-common\compat\compat_strl.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro-common\encodings\encoding_utf.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro-common\streams\memory_stream.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers\libretro\libretro-common\string\stdstring.c">
+      <Filter>源文件\src\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\arkanoid.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\bbox.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\bworld.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\cursor.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\fkb.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\ftrainer.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\hypershot.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\mahjong.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\mouse.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\oekakids.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\pec586kb.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\powerpad.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\quiz.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\shadow.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\suborkb.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\toprider.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\zapper.c">
+      <Filter>源文件\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ntsc\nes_ntsc.c">
+      <Filter>源文件\src\ntsc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\libretro\boolean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\libretro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\libretro_gskit_ps2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\retro_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\retro_common_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\retro_inline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\compat\msvc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\compat\strl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\compat\msvc\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\encodings\base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\encodings\crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\encodings\utf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\encodings\win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\streams\memory_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libretro\string\stdstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="retro_api.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cart.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crc32.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drawing.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\driver.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fceu.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fceu-endian.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fceu-memory.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fceu-types.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fcoeffs.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fds.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fds_apu.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filter.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\general.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\git.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ines.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ines-bad.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ines-correct.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsf.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ops.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palette.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ppu.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pputile.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ppuview.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unif.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vsuni.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\x6502.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\x6502struct.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boards\__serial.h">
+      <Filter>源文件\src\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boards\emu2413.h">
+      <Filter>源文件\src\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boards\mapinc.h">
+      <Filter>源文件\src\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boards\mmc3.h">
+      <Filter>源文件\src\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drivers\libretro\libretro_core_options.h">
+      <Filter>源文件\src\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drivers\libretro\libretro_dipswitch.h">
+      <Filter>源文件\src\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drivers\libretro\zlib.h">
+      <Filter>源文件\src\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c44100ntsc.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c44100pal.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c48000ntsc.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c48000pal.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c96000ntsc.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fir\c96000pal.h">
+      <Filter>源文件\src\fir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\fkb.h">
+      <Filter>源文件\src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\share.h">
+      <Filter>源文件\src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\suborkb.h">
+      <Filter>源文件\src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ntsc\nes_ntsc.h">
+      <Filter>源文件\src\ntsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ntsc\nes_ntsc_config.h">
+      <Filter>源文件\src\ntsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ntsc\nes_ntsc_impl.h">
+      <Filter>源文件\src\ntsc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\palettes.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\rp2c03.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\rp2c04-0001.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\rp2c04-0002.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\rp2c04-0003.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\palettes\rp2c04-0004.h">
+      <Filter>源文件\src\palettes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\fir\c44100ntsc.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c44100ntsc.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c44100pal.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c44100pal.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c48000ntsc.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c48000ntsc.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c48000pal.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c48000pal.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c96000ntsc.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c96000ntsc.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c96000pal.coef">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\c96000pal.scm">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+    <None Include="src\fir\Makefile">
+      <Filter>源文件\src\fir</Filter>
+    </None>
+  </ItemGroup>
+</Project>
